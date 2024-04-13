@@ -1,0 +1,17 @@
+*{  
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'Verdana', arial, sans-serif;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+
