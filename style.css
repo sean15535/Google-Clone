@@ -4,7 +4,10 @@
     box-sizing : border-box;
     font-family : 'Verdana', arial, sans-serif;
 }
-
+a{
+    text-decoration: none;  
+    color: #000;
+}
 nav{
     height: 60px;
     display: flex;
@@ -12,6 +15,12 @@ nav{
     border: 1px solid red;
     padding: 0 10px;
     justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+}
+.nav-right{
+    display: flex;
 }
 
 
