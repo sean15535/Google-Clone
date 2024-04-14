@@ -65,5 +65,22 @@ button{
 .footer{
     background-color: lightgray;
     width: 100%;
-    height:150px;
+    height: 100px;
+    padding: 10px 20px; /* Adjusted padding */
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+.links-left.links-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:40%;
+}
+footer p{
+    text-align: center;
 }
