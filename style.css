@@ -18,7 +18,7 @@ nav{
 .nav-left{
     display: flex;
     width: 10%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-between;
 
 }
